@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title> 
+		{% block titulo %}	
+			Inicio
+		{% endblock titulo %} 
+	</title>
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/base.css">
+	{% block head %}
+		
+	{% endblock head %}
+</head>
+<body>
+	<header>
+		<div>
+			<div class="logo">
+				SV
+			</div>
+			<div class="nombre">
+				<div>New School's</div>
+				<span>Election system</span>
+			</div>
+		</div>
+	</header>
+	{% block body %}
+		
+	{% endblock body %}
+</body>
+</html>
