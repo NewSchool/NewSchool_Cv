@@ -2,6 +2,7 @@ doctype 5
 html
     head
         title Primera plantilla Jade
+        link( href != "{{ STATIC_URL }}css/base.css", rel="stylesheet")
     body
         h1  Nuestra primera plantilla Jade
         #contenedor
