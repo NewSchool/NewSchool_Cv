@@ -1,8 +1,173 @@
-* {
-	padding: 0;
-	margin: 0;
-}
-
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic");
 body {
-	background: rgba(25,143,24,0.5);
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+footer {
+  background-color: #2f89ef;
+  height: 10%;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+footer p {
+  margin: 0;
+}
+header {
+  background-color: #fff;
+  position: relative;
+  width: 100%;
+  z-index: 999;
+}
+#contenedorAjax {
+  height: 72.5%;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  z-index: 9999;
+}
+#contenedorAjax p {
+  margin: 0;
+}
+#contenedorBotonP {
+  display: block;
+  height: 60%;
+  left: 70%;
+  position: relative;
+  top: 40%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  vertical-align: bottom;
+  width: 30%;
+  z-index: 9999;
+}
+#contenedorBotonP a {
+  text-decoration: none;
+}
+#contenedorBotonP .circuloAzul {
+  background-color: rgba(47,137,239,0.25);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  height: 90%;
+  margin: auto;
+  position: relative;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 69%;
+}
+#contenedorBotonP .circuloAzul .circuloBlanco {
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  height: 80%;
+  margin: auto;
+  position: relative;
+  top: 10%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 80%;
+}
+#contenedorBotonP .circuloAzul .contentenedorLink {
+  margin: auto;
+  position: relative;
+  width: 95%;
+}
+#contenedorBotonP .circuloAzul .contentenedorLink p {
+  color: #6c6c6c;
+  display: block;
+  font-size: 2em;
+  line-height: 6.5;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+}
+#contenedorBotonP .circuloAzul:hover {
+  background-color: rgba(219,129,45,0.5);
+}
+#contenedorHeader {
+  height: 12%;
+  overflow: hidden;
+  width: 100%;
+}
+#copyRight {
+  margin: auto;
+  width: 90%;
+}
+#copyRight p {
+  color: #6c6c6c;
+  height: 50%;
+  line-height: 4;
+  margin: auto 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 50%;
+}
+#copyRight p:hover {
+  color: #fff;
+}
+#iconosSociales {
+  left: 84%;
+  height: 2em;
+  position: relative;
+  width: 16%;
+}
+#iconosSociales ul {
+  list-style: none;
+  margin-top: 0.5em;
+}
+#iconosSociales ul li {
+  display: inline-block;
+  vertical-align: top;
+}
+#logo {
+  display: inline-block;
+  left: 3%;
+  position: relative;
+  top: -1em;
+  width: 20%;
+}
+#logo a > img {
+  width: 100%;
+}
+#menu {
+  display: inline-block;
+  left: 25%;
+  position: relative;
+  vertical-align: top;
+  width: 55%;
+}
+#menu nav {
+  width: 100%;
+}
+#menu nav ul {
+  list-style: none;
+  margin: 0.5em 0;
+}
+#menu nav ul li {
+  display: inline-block;
+  margin: 0.25em 0.5em;
+  padding: 0.7em;
+  vertical-align: top;
+}
+#menu nav ul li a {
+  color: #6c6c6c;
+  font-size: 1.15em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
