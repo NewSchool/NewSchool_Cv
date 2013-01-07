@@ -1,7 +1,8 @@
 Gris = rgb(108, 108, 108)
 Blanco = rgb(255, 255, 255)
 Azul = rgb(47, 137, 239)
-
+Naranja= rgb(219,129,45)
+Verde = rgb(147,177,35)
 borderRadius(arg){
 	-webkit-border-radius:arg
 	-moz-border-radius:arg
@@ -92,6 +93,44 @@ header
 	height 12%
 	overflow hidden
 	width 100%
+#ContenedorLogin
+	position relative
+	top 30%
+	width 30%
+	.contenedorUp
+		background-color Naranja
+		height 10%
+		max-height 192px
+		p
+			color Blanco
+			display block
+			font-size 1.8em
+			font-weight 100
+			line-height 1.2
+			margin auto
+			padding .5em
+			text-align center
+			width 90%
+	.contenedorDown
+		background-color Verde
+		max-height 112px
+		form input[type="text"]
+			display block
+			margin 0 auto 1.5em
+			padding .5em
+			position relative
+			top .5em
+			width 80%
+		form input[type="submit"]
+			background-color transparent
+			border none
+			color Blanco
+			display block
+			font-family "Lato"
+			font-size 1.5 em
+			font-weight 300
+			margin 0 auto .25em
+			width 30%
 #copyRight
 	margin auto
 	width 90%

@@ -8,6 +8,6 @@ $(document).on("ready", contructor);
         { src:'../../static/img/slider/3.jpg', fade:4000 }
       ]
     })('overlay', {
-      src:'../../static/overlays/11.png'
+      src:'../../static/overlays/04.png'
     });
   }
