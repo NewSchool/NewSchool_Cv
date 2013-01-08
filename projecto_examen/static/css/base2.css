@@ -215,3 +215,58 @@ header {
   text-decoration: none;
   text-transform: uppercase;
 }
+h2 {
+  color: #2f89ef;
+  font-size: 1.8em;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+#ayudaVideo {
+  display: block;
+  margin: 0 auto 0.5em;
+  width: 80%;
+}
+#ayudaVideo figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 0.25em;
+  width: 20%;
+}
+#ayudaVideo p {
+  display: inline-block;
+  vertical-align: top;
+  color: #2f89ef;
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  width: 76%;
+}
+#simboloInst {
+  display: block;
+  margin: 0 auto 0.5em;
+  width: 80%;
+}
+#simboloInst img {
+  width: 100%;
+}
+#salir {
+  display: block;
+}
+.fila {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+.contenedorDerecha {
+  display: inline-block;
+  vertical-align: top;
+  width: 68%;
+}
+.contenedorIzquierda {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}

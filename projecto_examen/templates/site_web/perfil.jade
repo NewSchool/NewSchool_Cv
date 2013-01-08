@@ -1,8 +1,0 @@
-extends site_web/base
-
-block content
-	form(action="#",method="POST")
-		{% csrf_token %}
-		{{ user_form.as_ul }}
-		{{ perfil_form.fk_institucion }}
-		input(type="submit", value="Enviar")

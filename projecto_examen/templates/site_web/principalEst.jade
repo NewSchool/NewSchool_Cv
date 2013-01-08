@@ -1,0 +1,29 @@
+extends site_web/base2.jade
+block content
+	section.fila
+		h2 Institución educativa san josé del campano
+	section.fila
+		div.contenedorIzquierda
+			figure#simboloInst
+				img(src != "{{ STATIC_URL }}img/escudo.png", alt="Escudo")
+			div#ayudaVideo
+				a(href="#")
+					figure
+						img(src != "{{ STATIC_URL }}img/cam_btn.png", alt="camara")
+					p ver como votar
+			div#salir
+				a(href="#") Salir
+		div.contenedorDerecha
+			div
+				hgroup
+					h3 hola!! Maria Fernanda Perez Valasquez
+					h4 selecciona tu tarjeton para votar
+			section
+				div
+					figure
+						img(src != "{{ STATIC_URL }}img/avatar.png", alt="Tarjeton1")
+					p Personero
+				div
+					figure
+						img(src != "{{ STATIC_URL }}img/avatar.png", alt="Tarjeton2")
+					p Representante
