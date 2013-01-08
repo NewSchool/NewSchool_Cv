@@ -1,0 +1,7 @@
+extends dashboard/base
+
+block content
+	form(action="",method="POST")
+		{% csrf_token %}
+		{{ form.as_ul }}
+		input(type="submit", value="Enviar")

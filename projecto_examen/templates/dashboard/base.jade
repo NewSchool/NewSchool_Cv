@@ -1,7 +1,7 @@
 !!! 5
 html(lang="es")
 	head
-		title Bienvenido
+		title Admininistrador
 		link( href != "{{ STATIC_URL }}css/normalize.css", rel="stylesheet")
 		link( href != "{{ STATIC_URL }}css/base.css", rel="stylesheet")
 	body
@@ -24,24 +24,8 @@ html(lang="es")
 				figure#logo
 					a(href="#")
 						img(src != "{{ STATIC_URL }}img/logo.png", alt="Logo Sv")
-				section#menu
-					nav
-						ul
-							li
-								a(href="#") Inicio
-							li
-								a(href="#") Conocenos
-							li
-								a(href="#") Productos
-							li
-								a(href="#") Demos
-							li
-								a(href="#") Contactenos
 		section#contenedorAjax
 			block content
 		footer
 			section#copyRight
 				p New School´s. Todos los derechos reservados 2012
-	script(type="text/javascript", src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
-	script(type="text/javascript", src !="{{ STATIC_URL }}js/jquery.vegas.js")
-	script(type="text/javascript", src !="{{ STATIC_URL }}js/funciones.js")
